@@ -1,0 +1,106 @@
+    版本: git-23.361.71802-8c6274a
+    大小: ~7.60 KiB 已安装
+    依赖:
+        kmod-tun 已安装
+            kernel 已安装
+        luci-lib-jsonc 已安装
+            liblua5.1.5 已安装
+            libjson-c5 已安装
+        strongswan (139.24 KiB) 未安装
+            libpthread 已安装
+                libgcc1 已安装
+            ip-full 已安装 | ip-tiny (122.30 KiB) 未安装
+                libnl-tiny2023-04-02 已安装
+                libbpf710 已安装
+                    libelf1 已安装
+                        zlib 已安装
+                libnl-tiny2023-07-01 (12.08 KiB) 未安装
+                libmnl0 已安装
+            kmod-crypto-aead 已安装
+                kmod-crypto-null 已安装
+                    kmod-crypto-hash 已安装
+            kmod-crypto-authenc (4.94 KiB) 未安装
+                kmod-crypto-manager 已安装
+            kmod-crypto-cbc (1.67 KiB) 未安装
+            kmod-lib-zlib-inflate (191 B) 未安装
+            kmod-lib-zlib-deflate (189 B) 未安装
+            kmod-crypto-des (9.51 KiB) 未安装
+            kmod-crypto-echainiv (1.71 KiB) 未安装
+            kmod-crypto-hmac 已安装
+            kmod-crypto-md5 (3.51 KiB) 未安装
+            kmod-crypto-sha1 已安装
+            kmod-ipsec (37.34 KiB) 未安装
+                kmod-crypto-deflate (187 B) 未安装
+                    kmod-crypto-acompress 已安装
+            kmod-ipsec4 (12.11 KiB) 未安装
+                kmod-iptunnel4 已安装
+            kmod-ipsec6 (14.49 KiB) 未安装
+                kmod-iptunnel6 已安装
+        strongswan-minimal (95 B) 未安装
+            strongswan-charon (204.16 KiB) 未安装
+            strongswan-mod-aes (16.60 KiB) 未安装
+            strongswan-mod-gmp (10.94 KiB) 未安装
+                libgmp10 (212.62 KiB) 未安装
+            strongswan-mod-hmac (2.38 KiB) 未安装
+            strongswan-mod-kernel-netlink (34.72 KiB) 未安装
+            strongswan-mod-mgf1 (2.47 KiB) 未安装
+            strongswan-mod-pubkey (2.52 KiB) 未安装
+            strongswan-mod-random (2.34 KiB) 未安装
+            strongswan-mod-sha1 (6.06 KiB) 未安装
+            strongswan-mod-socket-default (5.04 KiB) 未安装
+            strongswan-mod-stroke (58.30 KiB) 未安装
+                strongswan-ipsec (5.75 KiB) 未安装
+            strongswan-mod-updown (8.35 KiB) 未安装
+                iptables-nft 已安装 | iptables-zz-legacy (245 B) 未安装
+                    kmod-ipt-core 已安装
+                        kmod-nf-reject 已安装
+                        kmod-nf-ipt 已安装
+                        kmod-nf-log 已安装
+                    xtables-nft 已安装
+                        libnftnl11 已安装
+                        libiptext0 已安装
+                            libxtables12 已安装
+                        libiptext6-0 已安装
+                        libiptext-nft0 已安装
+                        kmod-nft-compat 已安装
+                            kmod-nft-core 已安装
+                                kmod-nfnetlink 已安装
+                                kmod-nf-reject6 已安装
+                                kmod-nf-conntrack6 已安装
+                                    kmod-nf-conntrack 已安装
+                                kmod-nf-nat 已安装
+                                kmod-nf-log6 已安装
+                                kmod-lib-crc32c 已安装
+                                    kmod-crypto-crc32c 已安装
+                    xtables-legacy (21.01 KiB) 未安装
+                        libip4tc2 已安装
+                        libip6tc2 已安装
+                ip6tables-nft 已安装 | ip6tables-zz-legacy (213 B) 未安装
+                    kmod-ip6tables 已安装
+                        kmod-nf-ipt6 已安装
+                iptables-mod-ipsec (5.37 KiB) 未安装
+                    kmod-ipt-ipsec (2.87 KiB) 未安装
+            strongswan-mod-x509 (27.70 KiB) 未安装
+            strongswan-mod-xcbc (2.93 KiB) 未安装
+        strongswan-mod-kernel-libipsec (20.99 KiB) 未安装
+        strongswan-mod-openssl (33.74 KiB) 未安装
+            libopenssl3 已安装
+                libatomic1 已安装
+        strongswan-mod-xauth-generic (2.64 KiB) 未安装
+        xl2tpd (41.84 KiB) 未安装
+            ppp-mod-pppol2tp (4.28 KiB) 未安装
+                kmod-pppol2tp (9.01 KiB) 未安装
+                    kmod-ppp 已安装
+                        kmod-lib-crc-ccitt 已安装
+                        kmod-slhc 已安装
+                    kmod-pppox 已安装
+                    kmod-l2tp (13.63 KiB) 未安装
+                        kmod-udptunnel4 已安装
+                        kmod-udptunnel6 已安装
+            resolveip 已安装
+
+描述
+
+LuCI support for IPSec VPN Server
+
+需要大约 1.10 MiB 空间来安装 44 个软件包。 

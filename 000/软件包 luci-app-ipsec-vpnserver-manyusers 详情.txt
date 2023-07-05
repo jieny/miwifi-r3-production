@@ -1,0 +1,91 @@
+软件包 luci-app-ipsec-vpnserver-manyusers 详情
+
+    版本: git-23.361.56158-91729a3
+    大小: ~4.45 KiB 已安装
+    依赖:
+        strongswan 已安装
+            libpthread 已安装
+                libgcc1 已安装
+            ip-full 已安装 | ip-tiny (148.44 KiB) 未安装
+                libnl-tiny2023-04-02 已安装
+                libbpf1 已安装
+                    libelf1 已安装
+                        zlib 已安装
+                libnl-tiny2023-07-01 (15.11 KiB) 未安装
+                libmnl0 已安装
+            kmod-crypto-aead 已安装
+                kernel 已安装
+                kmod-crypto-null 已安装
+                    kmod-crypto-hash 已安装
+            kmod-crypto-authenc 已安装
+                kmod-crypto-manager 已安装
+            kmod-crypto-cbc 已安装
+            kmod-lib-zlib-inflate 已安装
+            kmod-lib-zlib-deflate 已安装
+            kmod-crypto-des 已安装
+            kmod-crypto-echainiv 已安装
+            kmod-crypto-hmac 已安装
+            kmod-crypto-md5 已安装
+            kmod-crypto-sha1 已安装
+            kmod-ipsec 已安装
+                kmod-crypto-deflate 已安装
+                    kmod-crypto-acompress 已安装
+            kmod-ipsec4 已安装
+                kmod-iptunnel4 已安装
+            kmod-ipsec6 已安装
+                kmod-iptunnel6 已安装
+        strongswan-minimal (95 B) 未安装
+            strongswan-charon 已安装
+            strongswan-mod-aes 已安装
+            strongswan-mod-gmp 已安装
+                libgmp10 已安装
+            strongswan-mod-hmac 已安装
+            strongswan-mod-kernel-netlink 已安装
+            strongswan-mod-mgf1 已安装
+            strongswan-mod-pubkey 已安装
+            strongswan-mod-random 已安装
+            strongswan-mod-sha1 已安装
+            strongswan-mod-socket-default 已安装
+            strongswan-mod-stroke 已安装
+                strongswan-ipsec 已安装
+            strongswan-mod-updown 已安装
+                iptables-nft 已安装 | iptables-zz-legacy (245 B) 未安装
+                    kmod-ipt-core 已安装
+                        kmod-nf-reject 已安装
+                        kmod-nf-ipt 已安装
+                        kmod-nf-log 已安装
+                    xtables-nft 已安装
+                        libnftnl11 已安装
+                        libiptext0 已安装
+                            libxtables12 已安装
+                        libiptext6-0 已安装
+                        libiptext-nft0 已安装
+                        kmod-nft-compat 已安装
+                            kmod-nft-core 已安装
+                                kmod-nfnetlink 已安装
+                                kmod-nf-reject6 已安装
+                                kmod-nf-conntrack6 已安装
+                                    kmod-nf-conntrack 已安装
+                                kmod-nf-nat 已安装
+                                kmod-nf-log6 已安装
+                                kmod-lib-crc32c 已安装
+                                    kmod-crypto-crc32c 已安装
+                    xtables-legacy (24.90 KiB) 未安装
+                        libip4tc2 已安装
+                        libip6tc2 已安装
+                ip6tables-nft 已安装 | ip6tables-zz-legacy (213 B) 未安装
+                    kmod-ip6tables 已安装
+                        kmod-nf-ipt6 已安装
+                iptables-mod-ipsec 已安装
+                    kmod-ipt-ipsec 已安装
+            strongswan-mod-x509 已安装
+            strongswan-mod-xcbc 已安装
+        strongswan-mod-xauth-generic 已安装
+
+xtables-legacy
+strongswan-minimal
+strongswan-mod-kernel-libipsec
+
+libnl-tiny2023-07-01 不用，已经有libnl-tiny2023-04-02
+
+kmod-cryptodev 软件包里装不了

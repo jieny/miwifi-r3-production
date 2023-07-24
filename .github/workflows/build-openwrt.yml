@@ -215,7 +215,7 @@ jobs:
 
     - name: Delete workflow runs
       # uses: GitRML/delete-workflow-runs@main
-      uses: astolfogit/delete-workflow-runs@main
+      uses: jieny/delete-workflow-runs@main
       with:
         token: ${{ secrets.ACTIONS_TRIGGER_PAT }}
         retain_days: 1

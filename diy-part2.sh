@@ -15,3 +15,5 @@
 
 # 会自己创建 package/mypackages/
 git clone https://github.com/lylus/luci-app-zerotier package/mypackages/luci-app-zerotier
+git clone https://github.com/OrayOS/OpenOray package/mypackages/OpenOray
+
